@@ -17,7 +17,7 @@ app.use('*', secureHeaders());
 app.use(
   '/api/*',
   cors({
-    origin: ['https://example.com'], // TODO: Replace with your actual domain
+    origin: ['https://fulbo.amarrete.com'],
     allowHeaders: ['Content-Type', 'Authorization'],
     allowMethods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     maxAge: 86400,
