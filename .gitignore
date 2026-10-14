@@ -1,0 +1,36 @@
+# Cloudflare & Wrangler (Workers / Pages)
+.wrangler/                  # Directorio local de estado, caché y logs de Wrangler
+.dev.vars                   # Archivo donde guardas los secretos locales en Cloudflare
+
+# Node.js & Dependencias
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build & Outputs (Hono / Bundlers)
+dist/
+build/
+.cache/
+
+# Entorno & Secretos generales
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+
+# Sistemas Operativos e IDEs
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
